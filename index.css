@@ -1,0 +1,25 @@
+body {
+    background-color: darkcyan;
+    overflow:hidden;
+}
+
+#touch-box {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+#touch-box-container {
+    transition:0.5s;
+}
+.btn {
+    position:relative;
+    left:90%;
+    top:90%;
+    cursor:pointer;
+}
+
+.toggle {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
